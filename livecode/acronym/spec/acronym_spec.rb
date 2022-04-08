@@ -19,4 +19,3 @@ describe "#acronymize" do
     expect(actual).to eq(expected)
   end
 end
-x 
