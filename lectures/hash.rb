@@ -39,13 +39,15 @@ tokyo["population"]
 # U
 tokyo["population"] = 13000000
 # D
-# tokyo.delete("country")
+tokyo.delete("country")
 
+# Each in hash
 tokyo.each do |key, value|
   "Key is #{key} and value is #{value}"
 end
 
 # key?("some_key") return if there's a key value pair in that hash
+# but if we don't have that option....
 key_exits = false
 
 tokyo.each do |key, value|
