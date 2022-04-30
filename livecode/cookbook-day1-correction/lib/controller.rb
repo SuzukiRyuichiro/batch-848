@@ -9,7 +9,7 @@ class Controller
 
   def list # TODO: display all the recipes in the cookbook
     # 1. get the recipes from cookbook (cookbook)
-    recipes = @recipes
+    recipes = @cookbook.all
     # 2. display them in terminal (view)
     @view.display(recipes)
   end
